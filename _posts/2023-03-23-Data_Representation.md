@@ -40,5 +40,14 @@ Carry In and Carry Out -> 자리올림수, 자리내림수
 유니코드와 같은 문자코드는 유한하며 비트로 완전히  표현한다. <br>
 부동소수점 표현헹 필요한 비트 수에 의해 결정되어 표현의 실수가 있다. <br>
 
+#### 부동소수점의 대한 연산
+addition , subtraction, multplication, division <br>
+high-performance arithmetic is also inportant<br>
+BCD numbers -> Subtracting number, Adding numbers<br>
+<br>
+addition = 있는 그대로 진행한다. <br>
+subtraction = 원형비트수를 통해 add한 다음 올림수를 진행한다. <br>
+multplication과 division의 경우 따른 프로세서를 통해 연산이 진행된다. <br>
+
 
 
