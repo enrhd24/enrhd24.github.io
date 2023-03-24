@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TR of 기초"
-date: 2023-03-23 21:50:00 +0900
+date: 2023-03-24 00:00:00 +0900
 categories: 전자회로
 tag: [전자회로, NPN, DC, GND]
 ---
