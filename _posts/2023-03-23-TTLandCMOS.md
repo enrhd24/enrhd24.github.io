@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TTL and CMOS"
-date: 2023-03-22 15:20:00 +0900
+date: 2023-03-23 15:20:00 +0900
 categories: 집적회로
 tag: [집적회로, TTL, CMOS]
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "데이터표현"
-date: 2023-03-22 17:00:00 +0900
+date: 2023-03-23 17:00:00 +0900
 categories: CS
 tag: [CS, ARCHITECTURE]
 ---
