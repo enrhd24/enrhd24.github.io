@@ -7,7 +7,9 @@ tag: [GIT, github]
 ---
 ### [git setup settings](https://www.lainyzine.com/ko/article/how-to-set-git-repository-username-and-email/)
 
-#### [1] [git](https://git-scm.com/downloads) ==  [2] [git GPG keys Create](https://docs.github.com/ko/authentication/managing-commit-signature-verification)
+#### [1] [git](https://git-scm.com/downloads) ==  [2] [git GPG keys Create](https://docs.github.com/ko/authentication/managing-commit-signature-verification)<br>
+#### [3] repositories Private -> Public 변경
+#### [4] git fetch 와 git pull의 차이점
 ---
 
 #### [1] git
@@ -34,3 +36,15 @@ git config --global user.email you@example.com <br>
 > 5. git 홈페이지 -> Settings -> SSH and GPG keys <br> 
      GPG keys[New GPG key] -> Title, key[Add GPG key]
 
+[3] repositories Private -> Public 변경
+> 1. Repositories Settings OF Danger Zone<br> 
+> -> Change visibility <br>
+> -> change to public <br>
+> -> I want to make this repository public <br>
+> -> I have read and understand these effects <br>
+> -> Make this repository public
+
+ [4] git fetch 와 git pull의 차이점
+ > fetch : 원격 저장소의 변경사항 확인 [데이터 노 변화]<br>
+ > pull : 원격 저장소의 변경사항 확인 [최신 데이터 변화]<br>
+ > git fecth // git diff ...origin
