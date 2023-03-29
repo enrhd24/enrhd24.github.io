@@ -5,11 +5,12 @@ date: 2023-03-29 10:00:00 +0900
 categories: GIT
 tag: [GIT, github]
 ---
-### [git setup settings](https://www.lainyzine.com/ko/article/how-to-set-git-repository-username-and-email/)
+#### [git setup settings](https://www.lainyzine.com/ko/article/how-to-set-git-repository-username-and-email/)
 
-#### [1] [git](https://git-scm.com/downloads) ==  [2] [git GPG keys Create](https://docs.github.com/ko/authentication/managing-commit-signature-verification)<br>
-#### [3] repositories Private -> Public 변경
-#### [4] git fetch 와 git pull의 차이점
+[1] [git](https://git-scm.com/downloads)<br>
+[2] [git GPG keys Create](https://docs.github.com/ko/authentication/managing-commit-signature-verification)<br>
+[3] repositories Private -> Public 변경<br>
+[4] git fetch 와 git pull의 차이점<br>
 ---
 
 #### [1] git
