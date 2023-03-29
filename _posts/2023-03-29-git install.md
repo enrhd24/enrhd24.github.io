@@ -5,7 +5,8 @@ date: 2023-03-29 10:00:00 +0900
 categories: GIT
 tag: [GIT, github]
 ---
-
+#### [git setup settings](https://www.lainyzine.com/ko/article/how-to-set-git-repository-username-and-email/)
+---
 ### [git](https://git-scm.com/downloads) <br>
 1. [vscode](https://code.visualstudio.com/download)<br>
 2. git의 nano를 visual code Git's으로 선택
