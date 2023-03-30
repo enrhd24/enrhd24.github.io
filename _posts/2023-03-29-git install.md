@@ -12,6 +12,10 @@ tag: [GIT, github]
 #### [4] git fetch 와 git pull의 차이점
 #### [5] git branch의 최소설정방법
 #### [6] git reset 되돌리기 및 강제 푸쉬하기
+<<<<<<< HEAD
+=======
+
+>>>>>>> dde7cf86a2a13d65f80194a7f415e2e9b4bd1316
 ---
 
 #### [1] git
@@ -51,7 +55,10 @@ git config --global user.email you@example.com <br>
  > pull : 원격 저장소의 변경사항 확인 [최신 데이터 변화]<br>
  > git fecth // git diff ...origin
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> dde7cf86a2a13d65f80194a7f415e2e9b4bd1316
 [5] git branch의 최소설정방법
  > git restore . : 최신 commit 상태로 돌리기<br>
  > git branch : 브랜치 이름 보기<br>
