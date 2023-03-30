@@ -9,14 +9,10 @@ tag: [GIT, github]
 ---
 #### [1] [git](https://git-scm.com/downloads) ==  [2] [git GPG keys Create](https://docs.github.com/ko/authentication/managing-commit-signature-verification)<br>
 #### [3] repositories Private -> Public 변경
-#### [4] git fetch 와 git pull의 차이점
-#### [5] git branch의 최소설정방법
-#### [6] git reset 되돌리기 및 강제 푸쉬하기
-#### [1] [git](https://git-scm.com/downloads)<br>
-#### [2] [git GPG keys Create](https://docs.github.com/ko/authentication/managing-commit-signature-verification)<br>
-#### [3] repositories Private -> Public 변경<br>
 #### [4] git fetch 와 git pull의 차이점<br>
-#### [5] git commit 상태돌기기 및 git check out
+#### [5] git branch의 최소설정방법<br>
+#### [6] git commit 상태돌기기 및 git check out<br>
+#### [7] git merge of The others branch name<br>
 ---
 
 #### [1] git
@@ -61,5 +57,15 @@ git config --global user.email you@example.com <br>
  > git branch : 브랜치 이름 보기<br>
  > git branch "..." : 브랜치 생성<br>
  > git checkout "..." : 브랜치 이름 변경 <br>
- > git pull origin main : fetch 와 최신자료 가져오기 
+ > git pull origin main : fetch 와 최신자료 가져오기
+
 [6] git reset 되돌리기 및 강제 푸쉬하기
+> git주소 Settings -> Branches -> main Edit -> Allow force pushes<br>
+> Specify who can force push -> enrhd24 -> Save changes<br>
+> git reset --head '해쉬코드' -> git push -f origin main<br>
+
+[7] git merge of The others branch name
+> git branch "Name" -> git checkout "Name" -> git pull origin main<br> 
+> git add , commit -> git push origin "Name" -> git 주소 홈페이지 확인<br>
+> git홈페이지가 알려주는 순서대로 진행시 merge가 됩니다. 단, main까지 진행 <br>
+> git branch 삭제를 원할시 git branch에게 흡수를 시켜 git branch를 삭제<br>
