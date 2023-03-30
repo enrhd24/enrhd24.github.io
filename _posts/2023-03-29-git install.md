@@ -6,16 +6,17 @@ categories: GIT
 tag: [GIT, github]
 ---
 ### [git setup settings](https://www.lainyzine.com/ko/article/how-to-set-git-repository-username-and-email/)
-
+---
 #### [1] [git](https://git-scm.com/downloads) ==  [2] [git GPG keys Create](https://docs.github.com/ko/authentication/managing-commit-signature-verification)<br>
 #### [3] repositories Private -> Public 변경
 #### [4] git fetch 와 git pull의 차이점
 #### [5] git branch의 최소설정방법
 #### [6] git reset 되돌리기 및 강제 푸쉬하기
-<<<<<<< HEAD
-=======
-
->>>>>>> dde7cf86a2a13d65f80194a7f415e2e9b4bd1316
+#### [1] [git](https://git-scm.com/downloads)<br>
+#### [2] [git GPG keys Create](https://docs.github.com/ko/authentication/managing-commit-signature-verification)<br>
+#### [3] repositories Private -> Public 변경<br>
+#### [4] git fetch 와 git pull의 차이점<br>
+#### [5] git commit 상태돌기기 및 git check out
 ---
 
 #### [1] git
@@ -55,15 +56,10 @@ git config --global user.email you@example.com <br>
  > pull : 원격 저장소의 변경사항 확인 [최신 데이터 변화]<br>
  > git fecth // git diff ...origin
 
-<<<<<<< HEAD
-
-=======
->>>>>>> dde7cf86a2a13d65f80194a7f415e2e9b4bd1316
 [5] git branch의 최소설정방법
  > git restore . : 최신 commit 상태로 돌리기<br>
  > git branch : 브랜치 이름 보기<br>
  > git branch "..." : 브랜치 생성<br>
  > git checkout "..." : 브랜치 이름 변경 <br>
- > git pull origin main : fetch 와 최신자료 가져오기 <br>
-
+ > git pull origin main : fetch 와 최신자료 가져오기 
 [6] git reset 되돌리기 및 강제 푸쉬하기
