@@ -7,10 +7,11 @@ tag: [GIT, github]
 ---
 #### [git setup settings](https://www.lainyzine.com/ko/article/how-to-set-git-repository-username-and-email/)
 
-[1] [git](https://git-scm.com/downloads)<br>
-[2] [git GPG keys Create](https://docs.github.com/ko/authentication/managing-commit-signature-verification)<br>
-[3] repositories Private -> Public 변경<br>
-[4] git fetch 와 git pull의 차이점<br>
+#### [1] [git](https://git-scm.com/downloads)<br>
+#### [2] [git GPG keys Create](https://docs.github.com/ko/authentication/managing-commit-signature-verification)<br>
+#### [3] repositories Private -> Public 변경<br>
+#### [4] git fetch 와 git pull의 차이점<br>
+#### [5] git commit 상태돌기기 및 git check out
 ---
 
 #### [1] git
@@ -49,3 +50,11 @@ git config --global user.email you@example.com <br>
  > fetch : 원격 저장소의 변경사항 확인 [데이터 노 변화]<br>
  > pull : 원격 저장소의 변경사항 확인 [최신 데이터 변화]<br>
  > git fecth // git diff ...origin
+
+[5] git commit 상태돌리기 및 git check out
+ > git restore . : 최신 commit 상태로 돌리기<br>
+ > git branch : 브랜치 이름 보기<br>
+ > git branch "..." : 브랜치 생성<br>
+ > git checkout "..." : 브랜치 이름 변경 <br>
+ > git pull origin main : fetch 와 최신자료 가져오기 <br>
+
