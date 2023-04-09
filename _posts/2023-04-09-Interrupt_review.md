@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Interrupt"
+title: "Interrupt Review"
 date: 2023-04-09 16:00:00 +0900
 categories: Review1
 tag: [인터럽트, Review]
